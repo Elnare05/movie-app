@@ -1,0 +1,48 @@
+input{
+    width: 295px;
+    height: 30px;
+}
+button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+}
+.list{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(170, 72, 236);
+    color: white;
+    border: none;
+}
+.favorite{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(170, 72, 236);
+    border: none;
+    color: white;
+}
+.favorites-panel{
+ display: flex;
+ flex-direction: column;
+}
+.remove-btn {
+    background-color: #ff4d4f;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .favorite-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 8px; */
+  }
+  

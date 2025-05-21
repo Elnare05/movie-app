@@ -1,0 +1,15 @@
+.sidebar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+}
+.search{
+    width: 100px;
+    height: 24px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(170, 72, 236) ;
+    color: white;
+}

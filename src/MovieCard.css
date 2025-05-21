@@ -1,0 +1,18 @@
+.movie-card{
+    display: flex;
+    gap: 25px;
+    margin: 10PX;
+}
+.fav-btn{
+    background-color: rgb(153, 0, 255);
+    color: white;
+    /* width: 200p; */
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+.movie-info{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
